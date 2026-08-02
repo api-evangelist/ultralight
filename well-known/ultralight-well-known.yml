@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: live HTTP probes of /.well-known/ on ultralighthealth.com hosts
+note: No .well-known discovery documents are published on any Ultralight host. All
+  probes returned 404; nothing was saved. Recorded as honest negative results.
+hosts:
+- host: https://www.ultralighthealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.ultralighthealth.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404

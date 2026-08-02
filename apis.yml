@@ -1,7 +1,25 @@
 aid: ultralight
 name: Ultralight
-description: Ultralight is a company surfaced as a portfolio company of anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Ultralight is an AI-native electronic health record (EHR) and operating
+  system for functional, integrative, and longevity medicine practices. The platform
+  brings clinical data, workflows, and intelligence into a single system, synthesizing
+  wearable data, longitudinal symptoms, labs, and treatment history with a built-in,
+  clinician-reviewed clinical intelligence layer, alongside a consumer-grade patient
+  app, automated workflows, and HIPAA-compliant infrastructure. Ultralight is headquartered
+  in San Francisco and backed by Anthemis through its Female Innovators Lab. The company
+  publishes no public developer or API surface today.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6995e2fab9583dcbfef5676c/69a1b5d7465a1b66aa29e040_favicon-256.png
 url: https://raw.githubusercontent.com/api-evangelist/ultralight/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,58 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- EHR
+- Artificial Intelligence
+- Functional Medicine
+- Integrative Medicine
+- Longevity Medicine
+- Clinical Intelligence
+- Patient Experience
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ultralight-domain-security.yml
+- name: Conformance
+  type: Conformance
+  url: conformance/ultralight-conformance.yml
+- name: HIPAA Compliance
+  type: Compliance
+  url: https://www.ultralighthealth.com/platform
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/ultralight-llms.txt
+- name: Website
+  type: Website
+  url: https://www.ultralighthealth.com/
+- name: Pricing
+  type: Pricing
+  url: https://www.ultralighthealth.com/pricing
+- name: Terms of Use
+  type: TermsOfService
+  url: https://www.ultralighthealth.com/terms-of-use
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.ultralighthealth.com/privacy-policy
+- name: Application Login
+  type: Login
+  url: https://app.ultralighthealth.com/
+- name: Resources Library
+  type: Blog
+  url: https://www.ultralighthealth.com/resources
+- name: LinkedIn
+  type: LinkedIn
+  url: https://www.linkedin.com/company/vibrantpractice/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1

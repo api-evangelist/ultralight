@@ -1,0 +1,30 @@
+# Ultralight
+
+> Ultralight is an AI-native electronic health record (EHR) and operating system for functional, integrative, and longevity medicine practices. It brings clinical data, workflows, and intelligence into a single system — synthesizing labs, wearable data, longitudinal symptoms, and treatment history with a built-in, clinician-reviewed clinical intelligence layer — plus a consumer-grade patient app and automated end-to-end workflows on HIPAA-compliant infrastructure. Headquartered in San Francisco; backed by Anthemis (Female Innovators Lab). Ultralight publishes no public developer portal, API documentation, or machine-readable API surface today.
+
+## Company
+
+- [Website](https://www.ultralighthealth.com/): Ultralight marketing site
+- [Platform](https://www.ultralighthealth.com/platform): The AI-native EHR for functional, integrative, and longevity medicine
+- [Solutions](https://www.ultralighthealth.com/solutions): Functional/integrative medicine, longevity and optimization, concierge and cash-pay practices, women's health and hormone clinics, enterprises
+- [Pricing](https://www.ultralighthealth.com/pricing): Plans and pricing
+- [The Ultralight Story](https://www.ultralighthealth.com/the-ultralight-story): Mission and values
+- [Resources](https://www.ultralighthealth.com/resources): Guides and articles for functional, integrative, and longevity clinicians
+- [Application Login](https://app.ultralighthealth.com/): Clinician application
+
+## Policies
+
+- [Terms of Use](https://www.ultralighthealth.com/terms-of-use)
+- [Privacy Policy](https://www.ultralighthealth.com/privacy-policy)
+- [Patient App Terms of Use](https://www.ultralighthealth.com/patient-app-terms-of-use)
+- [Patient App Privacy Policy](https://www.ultralighthealth.com/patient-app-privacy-policy)
+- [Clinical App Terms of Use](https://www.ultralighthealth.com/clinical-app-terms-of-use)
+- [Clinical App Privacy Policy](https://www.ultralighthealth.com/clinical-app-privacy-policy)
+
+## Compliance
+
+- [HIPAA compliance claim](https://www.ultralighthealth.com/platform): "The platform is HIPAA-compliant, designed for auditability, and engineered to protect sensitive patient data while enabling AI-powered workflows."
+
+## APIs
+
+Ultralight publishes no public APIs, developer documentation, OpenAPI definitions, or .well-known discovery documents as of 2026-07-21.

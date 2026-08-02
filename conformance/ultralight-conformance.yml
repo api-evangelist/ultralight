@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.ultralighthealth.com/platform
+standards:
+- id: hipaa
+  conforms: true
+  evidence: 'Platform page states: "The platform is HIPAA-compliant, designed for
+    auditability, and engineered to protect sensitive patient data while enabling
+    AI-powered workflows" with "HIPAA-compliant infrastructure" listed as a platform
+    feature. A "View trust center" button is present but currently links nowhere
+    (href="#"), so no trust center with named certifications could be verified.'
+- id: soc2
+  conforms: null
+  evidence: No public SOC 2 claim found; the trust center link on the platform page
+    is not yet live.
+- id: fhir-r4
+  conforms: null
+  evidence: Ultralight is an EHR platform but publishes no developer documentation
+    or API surface, so FHIR conformance cannot be assessed.

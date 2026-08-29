@@ -8,6 +8,17 @@ description: Ultralight is an AI-native electronic health record (EHR) and opera
   app, automated workflows, and HIPAA-compliant infrastructure. Ultralight is headquartered
   in San Francisco and backed by Anthemis through its Female Innovators Lab. The company
   publishes no public developer or API surface today.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown

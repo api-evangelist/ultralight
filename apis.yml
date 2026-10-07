@@ -53,6 +53,8 @@ tags:
 - Patient Experience
 apis: []
 common:
+- type: Plans
+  url: plans/ultralight-plans-pricing.yml
 - type: DomainSecurity
   url: security/ultralight-domain-security.yml
 - name: Conformance

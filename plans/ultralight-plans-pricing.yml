@@ -62,3 +62,67 @@ plans:
   price_text: Custom pricing depending on records and complexity
   period: none
   included_quota: Complete AI-driven migration from your existing EHR or system of record
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  - subscription
+  units:
+  - seat
+  plans:
+  - name: Launch
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: Core - Prescribing
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Core - Non-prescribing
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Core - Admin
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: Implementation fee
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - one-time
+  - name: Migration of existing data
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none

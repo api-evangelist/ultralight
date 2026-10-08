@@ -1,0 +1,64 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.ultralighthealth.com/pricing
+sources:
+- https://www.ultralighthealth.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Core
+published: true
+note: Per-seat clinical software pricing; no API usage pricing stated. Enterprise and data migration are
+  custom-priced.
+plan_count: 7
+currency: USD
+plans:
+- name: Launch
+  price_text: Apply for special pricing to onramp
+  period: none
+  unit: startup practices under 50 patients
+  included_quota: Everything in Core; access to a community of like-minded clinicians, webinars and resources
+- name: Core - Prescribing
+  price_text: $525
+  price: 525
+  currency: USD
+  period: month
+  unit: per seat
+  included_quota: All-in-one price for platform features, including patient app; dedicated onboarding
+    + Slack channel support
+- name: Core - Non-prescribing
+  price_text: $300
+  price: 300
+  currency: USD
+  period: month
+  unit: per seat
+- name: Core - Admin
+  price_text: $50/unlimited/mo
+  price: 50
+  currency: USD
+  period: month
+  unit: unlimited admin seats
+- name: Enterprise
+  price_text: Custom pricing
+  period: none
+  unit: multi-site or practices above 1,000 patients
+  included_quota: Everything in Core; custom integrations, dedicated engineer + onboarding support
+- name: Implementation fee
+  price_text: $995 per practice
+  price: 995
+  currency: USD
+  period: one-time
+  unit: per practice
+  included_quota: Support and training from Ultralight team
+- name: Migration of existing data
+  price_text: Custom pricing depending on records and complexity
+  period: none
+  included_quota: Complete AI-driven migration from your existing EHR or system of record
